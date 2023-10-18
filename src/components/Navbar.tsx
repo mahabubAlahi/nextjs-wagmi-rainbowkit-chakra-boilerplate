@@ -12,11 +12,13 @@ export default function Navbar() {
         {/* <Image src={Logo.src} h="50px" /> */}
 
         <HStack as="nav" spacing="5">
-          {data.map((item, i) => (
+          {/* {data.map((item, i) => (
             <Link key={i}>
               <Button variant="nav"> {item.label} </Button>
             </Link>
-          ))}
+          ))} */}
+
+          <Image boxSize="50px" src="abstract.png" alt="Dan Abramov" />
         </HStack>
 
         <HStack>
