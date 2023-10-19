@@ -4,7 +4,7 @@
   "private": true,
   "author": "Mahabub Alahi",
   "scripts": {
-    "dev": "cross-env APP_ENV=development PORT=8080 next dev",
+    "dev": "APP_ENV=development PORT=8080 next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
