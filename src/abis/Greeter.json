@@ -11,6 +11,25 @@
     "type": "constructor"
   },
   {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "string",
+        "name": "greeting",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "setter",
+        "type": "address"
+      }
+    ],
+    "name": "SetGreeting",
+    "type": "event"
+  },
+  {
     "inputs": [],
     "name": "greet",
     "outputs": [
