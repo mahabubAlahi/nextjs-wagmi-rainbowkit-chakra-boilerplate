@@ -4,7 +4,7 @@
   "private": true,
   "author": "Mahabub Alahi",
   "scripts": {
-    "dev": "APP_ENV=development PORT=8080 next dev",
+    "dev": "cross-env APP_ENV=development PORT=8080 next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -24,6 +24,7 @@
     "react-dom": "18.2.0",
     "react-scroll": "^1.9.0",
     "typechain": "^8.1.0",
+    "viem": "^1.16.6",
     "wagmi": "^1.4.3"
   },
   "devDependencies": {
